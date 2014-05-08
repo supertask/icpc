@@ -1,0 +1,6 @@
+Runtime Error: メモリのアクセス違反や、例外。
+Memory Limit Exceeded: メモリ制限超え。
+Presentation Error: 改行や空白など出力系の問題。
+Output Limit Exceeded: 出力の出し過ぎ。
+Compile Error: エラー内容はOnline Statusの「Compile Error」のリンク。
+System Error, Validator Error: システム側のエラーで判定できない場合。

@@ -1,0 +1,36 @@
+# struct sort
+typedef struct nnname {
+	bool operator<( const nnname& right ) const {
+		return light > right.light;
+	}
+} Nnname; #atcoder003
+
+# vector
+sort(all(vectorやlistの要素)) #n*log(n) #atcoder003
+reverse(all(vectorやlistの要素)) #atcoder003
+max_element(all(vectorやlistの要素)) #atcoder004
+
+# list
+for (list<bool*>::iterator it = a_list.begin(); it != a_list.end(); it++ ) { 
+}
+a_list.remove(a_number（<int>,<double>などのジェネリクトした型要素）); #aoj/acac000/c_disjoint.cpp
+
+# cmath
+double sqrt(double) #atcoder/004
+double pow(double,double(累乗)) #atcoder/004
+
+# 有効桁数（精度）を調節する．fixedがあると小数のみの調節をしてくれる．
+cout << setprecision(8) << fixed #atcoder/004
+
+# 素数，約数，素因数
+
+# オーダー
+O(n^2) + O(nlog(n)) + O(n^4) = O(n^4)
+log(n) < n < nlog(n) < n^2 < 2^n < 3^n < n!
+
+# 配列
+配列のvalueは異なるが，keyが同じようなものを作るときは，
+a[1] = 23; ×
+a[1] = 27; 
+a[1] = 23,27; ◯
+リンクさせるしかない．構造体はダメ．
