@@ -47,8 +47,9 @@ int main() {
 	vector<int> res;
 
 	cin >> n;
-	//res = get_divisor(n);
-	res = get_prime_factor(n);
+	cout << is_prime(n) << endl;	
+	res = get_divisor(n);
+	//res = get_prime_factor(n);
 	sort(all(res));
 	rep(i,res.size()) {
 		cout << res[i] << " ";
