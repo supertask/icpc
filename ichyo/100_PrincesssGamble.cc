@@ -18,20 +18,23 @@ using namespace std;
 
 int main() {
 	int N,M,P;
-	int X[110];
-	int sum;
+	double X[120];
+	long long sum,ans;
+	double zyun_money_per;
 
-	while(cin >> N >> M >> P && N && M && P) {
+	while(cin >> N >> M >> P) {
+		if (N==0 && M==0 && P==0) { break; }
 		sum=0;
 		REP(i,1,N+1) {
 			cin >> X[i];
-			sum+=(X[i]*100);
+			sum+=X[i];
 		}
 		if (X[M] == 0) {
 			cout << "0" << endl;
 		}
 		else {
-			int ans = (sum/X[M])*(100-P)*0.01;
+			zyun_money_per = (100-P)*0.01;
+			ans = (sum/X[M])* 100 * zyun_money_per;//切り捨て
 			cout << ans << endl;
 		}
 	}

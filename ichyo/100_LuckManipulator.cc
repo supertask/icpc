@@ -17,14 +17,33 @@
 using namespace std;
 
 int main() {
-	int N,A,B,C;
+	int N,A,B,C,X;
 	int Y[101];
-
-	while(cin >> N >> A >> B >> C && N && A && B && C) 
+	int check_cnt;
+	int ii;
+	
+	while(cin >> N >> A >> B >> C >> X) 
 	{
+		if (N==0 && A==0 && B==0 && C==0 && X==0) { break; }
+		ii=0;
+		check_cnt=0;
 		rep(i,N) {
 			cin >> Y[i];
 		}
+		rep(i,10000) {
+			if (check_cnt >= N) { break; }
+			X = (A * X + B) % C;
+			rep(j,N) {
+				if (X == Y[j]) { //一致した数を出力する
+					check_cnt++;
+					ii=i;
+				}
+			}
+		}
+		if (check_cnt >= N) {
+			cout << ii << endl;
+		}
+		else { cout << -1 << endl; }
 	}
 
 
