@@ -47,7 +47,9 @@ int main() {
 	vector<int> res;
 
 	cin >> n;
-	cout << is_prime(n) << endl;	
+	if (is_prime(n)) {
+		cout << "素数" << endl;	
+	}
 	res = get_divisor(n);
 	//res = get_prime_factor(n);
 	sort(all(res));

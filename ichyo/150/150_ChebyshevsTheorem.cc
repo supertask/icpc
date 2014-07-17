@@ -26,8 +26,8 @@ int main() {
 	int N;
 	bool prime[PRIME_MAX+1];
 
-	prime[0] = true;
-	prime[1] = true;
+	prime[0] = false;
+	prime[1] = false;
 	REP(i,2,PRIME_MAX+1) prime[i] = true;
 
 	//エラトステネスの篩
