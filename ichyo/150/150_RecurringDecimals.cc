@@ -1,5 +1,5 @@
 /*
- * 
+ * 10進数問題
  * http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1180&lang=jp
  */
 #include<iostream>
@@ -26,35 +26,60 @@ using namespace std;
 int main() {
 	int num,L;
 	stringstream ss;
+	vector<int> nums;
+	int max_num;
+	int min_num;
+	int find_i;
+	int find_j;
 
 	while(cin >> num >> L) {
 		if(num==0 && L==0) break; 
 
-		ss << num;
-		string num_str = ss.str();
-		if (num_str.size() != L) {
-			int diff_L = L - num_str.size();
-			string diff_zero(diff_L,'0');
-			num_str = diff_zero + num_str;
-		}
-		
-		int max_num=0;
-		int min_num=INT_MAX;
-		int num_tmp=0;
-		cout << num_str << endl;
-		sort(ALL(num_str));
-		
-		do {
-			num_tmp = stoi(num_str);
-			//dump(num_str);
-			chmax(max_num,num_tmp);
-			chmin(min_num,num_tmp);
-		} while(next_permutation(ALL(num_str)) );
-		dump(max_num);
-		dump(min_num);
-
 		ss.str("");
 		ss.clear();
+		nums.clear();
+		max_num=0;
+		min_num=INT_MAX;
+		find_i = -1;
+		find_j = -1;
+
+		while(true) {
+			max_num=0;
+			min_num=INT_MAX;
+			find_i = -1;
+			rep(j,nums.size()) {
+				if (nums[j] == num) {
+					find_i = nums.size(); //次にpushされるnumの要素
+					find_j = j;
+				}
+			}
+			if (find_i == -1) { //見つからないとき
+				ss << num;
+				string num_str = ss.str();
+				nums.push_back(num);
+
+				if (num_str.size() != L) {
+					int diff_L = L - num_str.size();
+					string diff_zero(diff_L,'0');
+					num_str = diff_zero + num_str;
+				}
+				sort(ALL(num_str));
+				int num_tmp=0;
+				do {
+					num_tmp = stoi(num_str);
+					chmax(max_num,num_tmp);
+					chmin(min_num,num_tmp);
+				} while(next_permutation(ALL(num_str)) );
+				num = max_num - min_num;
+				ss.str("");
+				ss.clear();
+			}
+			else {
+				cout << find_j << " " << num << " " << find_i-find_j << endl;
+				break;
+			}
+		}
+
 	}
 
 	return 0;
