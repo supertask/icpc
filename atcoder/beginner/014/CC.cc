@@ -1,3 +1,4 @@
+/* AC */
 #include<iostream>
 #include<map>
 #include<vector>
@@ -19,28 +20,45 @@ template<class T> void chmin(T &t, T f) { if (t > f) t = f; } //t=min
 template<class T> void chmax(T &t, T f) { if (t < f) t = f; } //t=max
 using namespace std;
 
-int moneys[4] = {10,50,100,500};
+int main()
+{
+	int N,a,b;
+	int nums[1000001];
+	vector<int> lefts;
+	vector<int> rights;
 
-int main() {
-	int money;
-	int money_nums[4];	
-	
-	while(cin >> money, money) 
+	cin >> N;
+	rep(i,1000001)
 	{
-		fill_n((int *)money_nums,sizeof(money_nums)/sizeof(int),0);
-		rep(i,4) {
-			cin >> money_nums[i];
-		}
-		rep(i,4) {
-			if (money_nums[i] > 0) {
-				int money_num = money_nums[i];
-				REP(m,1,money_num+1) {
-					
-				}
-			}
-			//0のときパス
+		nums[i] = 0;
+	}
+	rep(i,N)
+	{
+		cin >> a >> b;
+		nums[a]++;
+		nums[b+1]--;
+		lefts.push_back(a);
+		rights.push_back(b);
+	}
+
+	int maxi = nums[0];
+	int index = 0;
+	REP(i,1,1000001)
+	{
+		nums[i] += nums[i-1];
+		if (nums[i] > maxi) {
+			maxi = nums[i];
+			index = i;
 		}
 	}
+
+	int cnt=0;
+	rep(i,lefts.size()) //0 <= N <= 100000
+	{
+		if (lefts[i] <= index && index <= rights[i]) cnt++;
+	}
+	cout << cnt << endl;
+	
 
 	return 0;
 }

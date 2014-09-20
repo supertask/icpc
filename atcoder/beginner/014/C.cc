@@ -1,3 +1,4 @@
+/* WA */
 #include<iostream>
 #include<map>
 #include<vector>
@@ -19,28 +20,52 @@ template<class T> void chmin(T &t, T f) { if (t > f) t = f; } //t=min
 template<class T> void chmax(T &t, T f) { if (t < f) t = f; } //t=max
 using namespace std;
 
-int moneys[4] = {10,50,100,500};
+struct Range {
+	int left;
+	int right;
+	int value; //count
+	bool operator<( const Range& r ) const {
+		return value > r.value;
+	}
+};
 
 int main() {
-	int money;
-	int money_nums[4];	
-	
-	while(cin >> money, money) 
+	int N,a,b;
+	vector<Range> ranges;
+
+	cin >> N;
+
+	rep(i,N) { //MAX 10^5
+		cin >> a >> b;
+		Range range;
+		range.left = a;
+		range.right = b;
+		range.value = 1;
+		ranges.push_back(range);
+	}
+
+	rep(i,ranges.size())
 	{
-		fill_n((int *)money_nums,sizeof(money_nums)/sizeof(int),0);
-		rep(i,4) {
-			cin >> money_nums[i];
-		}
-		rep(i,4) {
-			if (money_nums[i] > 0) {
-				int money_num = money_nums[i];
-				REP(m,1,money_num+1) {
-					
-				}
+		rep(j,ranges.size())
+		{
+			if ((ranges[i].left <= ranges[j].left && ranges[j].left <= ranges[i].right) ||
+				(ranges[i].left <= ranges[j].right && ranges[j].right <= ranges[i].right) )
+			{
+				ranges[i].value++;
+				ranges[j].value++;
 			}
-			//0のときパス
 		}
 	}
+
+	sort(ALL(ranges));
+	int max_value = ranges[0].value;
+
+	int cnt=0;
+	rep(i,ranges.size())
+	{
+		if (ranges[i].value == max_value) cnt++;
+	}
+	cout << cnt << endl;
 
 	return 0;
 }
