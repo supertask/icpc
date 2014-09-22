@@ -1,0 +1,1684 @@
+50
+11 10
+ AAA       
+  A AAAAA  
+  AAAA AAAA
+AAA  ABAA  
+ A   B  A  
+        A  
+       BB  
+        A  
+     BBAAA 
+        AA 
+6
+90 A B
+3 B A
+54 B A
+30 B A
+47 A B
+64 B A
+9 7
+A        
+A      E 
+AA     E 
+ DDDDBBE 
+  DDD  EB
+   DD    
+   D     
+0
+14 4
+ C   EECCCCCCC
+CCCCCCE C    C
+ CCCC         
+   C          
+8
+43 C E
+52 C E
+2 C E
+40 C E
+26 C E
+50 C E
+87 C E
+17 C E
+19 18
+             VVV   
+               VMW 
+               V WW
+            U  V V 
+            UUUI   
+            UUUU   
+            AUYEM  
+            A      
+            H J    
+    U      HHQJ    
+    UWWWWW  Q JQ   
+    UUW   IIQ JQ   
+    UUWWOO III     
+    UUW OOOIRR     
+    KKW  DDDRRO    
+   IIII   DDDROW   
+QQQPI TEE DD RT    
+  QP   E  D  R     
+33
+24 E Y
+45 O R
+54 H P
+84 Y O
+10 W P
+90 V M
+65 Q E
+67 P O
+25 I K
+45 W Y
+11 D Q
+4 H U
+75 D P
+3 U E
+48 K I
+48 A T
+20 A H
+14 A V
+47 P Y
+90 A W
+65 U E
+47 J O
+11 U M
+77 J D
+22 Y V
+11 K A
+24 A T
+42 I M
+82 D I
+22 Q R
+83 E I
+75 D V
+87 W J
+14 10
+ I            
+ III          
+ AAAL         
+AKALL         
+AAA LLL   K   
+ B  LLL  KKH  
+     L  L KHLD
+   MMH  C  JJ 
+   MM LDIIJJ  
+    JEEKI     
+46
+37 K H
+19 H L
+52 H K
+55 A E
+41 J I
+77 B E
+19 C A
+92 M H
+65 I J
+3 A L
+14 D L
+83 M J
+71 M A
+70 B H
+88 E K
+32 L E
+50 B I
+46 H L
+74 A K
+27 C K
+30 E H
+57 H I
+72 J M
+5 K B
+28 M D
+96 E A
+66 H K
+97 L I
+41 I H
+64 B M
+92 J L
+27 H I
+18 H K
+15 A E
+98 A H
+62 M C
+46 I L
+77 B L
+39 J L
+30 K B
+39 A D
+1 K C
+69 L J
+25 E L
+55 J I
+45 I K
+3 5
+NNN
+D N
+WWW
+BB 
+B  
+9
+74 B W
+78 B D
+56 W B
+66 N D
+44 D N
+12 D N
+47 W B
+52 B N
+72 D W
+9 8
+ F       
+FF VL    
+ FFVH    
+   VWW   
+   VWWW  
+     W   
+     WWWF
+      HH 
+19
+3 F L
+66 W V
+79 F W
+37 L F
+39 L F
+41 F H
+81 W F
+47 F V
+42 V L
+47 V H
+37 F H
+64 W H
+80 L H
+53 H V
+13 W F
+93 F L
+86 F L
+60 H L
+72 F V
+11 6
+  ER RR   J
+GEEEERT  MM
+A  E  TT VM
+   T   TTT 
+  TTT    PP
+         P 
+38
+32 P A
+13 T P
+70 A T
+7 J E
+25 J E
+97 P M
+99 P J
+80 P G
+74 G A
+11 V E
+70 G P
+59 A V
+88 E V
+64 T A
+22 P J
+27 V R
+65 V G
+90 V R
+29 J V
+7 E G
+24 E M
+42 T M
+16 R V
+1 M R
+24 R T
+11 V J
+100 V G
+22 T E
+32 R V
+55 V E
+34 R P
+49 P E
+76 E G
+74 T V
+70 A P
+74 E G
+34 R E
+40 G V
+2 5
+C 
+CC
+CF
+FF
+A 
+2
+35 F C
+18 A C
+9 7
+     KK  
+GG    KK 
+ G    KK 
+ GGGFFK  
+    F K  
+      KKK
+        B
+9
+89 B G
+48 G F
+27 G F
+45 K G
+94 B F
+51 K B
+57 K F
+30 B K
+48 G B
+23 41
+         FF            
+         F  BA         
+        EFFFB          
+       BBD EE          
+        CC             
+       CCCCC           
+         DDCC          
+        DDDH           
+        DD HCCC  FH    
+   DBE  BHHHCCCDFFHH   
+   BBD   CAH C  FGHHH  
+    DD     H  E FF FH  
+    FD        BBBA     
+   FFDD       AF A     
+   FF            A     
+C GGF      CC  FFA     
+CCCB       C  CCGA     
+ CCB       CCCGGGA     
+DDD    B    C   G      
+BDD FFFBF  EE E        
+GGDFGFFF   EAGGEEE     
+G  F  FFFFAAA GEEE     
+         DDAG   EHC    
+      B  DAGG   EHC    
+      BB    GC FFH  F  
+    HHHGGB EGC BBBBBC  
+   HHHHGGGGE FFFH BB   
+   HHHHGGGG AFFHHHE F  
+     H EDDGG        F  
+       EDDGGE       FE 
+        DDDDD     HAGE 
+        FFDF AEE CCGGAC
+         FDFBEGGCFG GA 
+          B    GFF GAAA
+                 FF    
+                  CC   
+                 CE    
+                GC     
+                GB     
+                EE     
+                EEE    
+24
+73 F G
+76 F A
+38 H E
+12 C D
+89 B F
+86 A G
+91 E C
+81 A D
+72 C D
+57 C G
+51 F G
+74 A C
+92 A B
+26 A F
+46 F E
+77 A C
+82 A C
+38 D F
+92 G C
+34 F D
+11 H A
+23 G A
+100 G E
+80 C G
+11 5
+      F    
+      DD   
+     DC D  
+HH  DDCDDDD
+HHGGBB  D  
+23
+86 G B
+53 G H
+61 B G
+42 C G
+26 B H
+37 B G
+48 F H
+49 C F
+78 F C
+98 H G
+54 G C
+43 D B
+45 H G
+43 C B
+88 G C
+26 F H
+33 F D
+39 H G
+28 D F
+45 F D
+10 H D
+17 F D
+32 G C
+5 5
+OOO  
+OOD  
+ O   
+ O   
+ OQQQ
+2
+11 O Q
+86 O D
+9 19
+    C    
+  BCCCC  
+   CHCCC 
+     I   
+    II   
+    KK   
+     K   
+     T   
+    CHH  
+    CHHB 
+    CBHEE
+    C  EE
+   KCC  E
+ KKK     
+KJ       
+ J       
+ J       
+ NNN     
+  N      
+4
+46 N T
+19 H E
+3 I K
+91 K T
+10 8
+NNII      
+  I       
+OOOAA N   
+ O A  NDDD
+ OOO  DD  
+  KKK N   
+   KKKK   
+      K   
+5
+79 D A
+95 O I
+63 A K
+38 O A
+43 D I
+23 41
+         FF            
+         F  BA         
+        EFFFB          
+       BBD EE          
+        CC             
+       CCCCC           
+         DDCC          
+        DDDH           
+        DD HCCC  FH    
+   DBE  BHHHCCCDFFHH   
+   BBD   CAH C  FGHHH  
+    DD     H  E FF FH  
+    FD        BBBA     
+   FFDD       AF A     
+   FF            A     
+C GGF      CC  FFA     
+CCCB       C  CCGA     
+ CCB       CCCGGGA     
+DDD    B    C   G      
+BDD FFFBF  EE E        
+GGDFGFFF   EAGGEEE     
+G  F  FFFFAAA GEEE     
+         DDAG   EHC    
+      B  DAGG   EHC    
+      BB    GC FFH  F  
+    HHHGGB EGC BBBBBC  
+   HHHHGGGGE FFFH BB   
+   HHHHGGGG AFFHHHE F  
+     H EDDGG        F  
+       EDDGGE       FE 
+        DDDDD     HAGE 
+        FFDF AEE CCGGAC
+         FDFBEGGCFG GA 
+          B    GFF GAAA
+                 FF    
+                  CC   
+                 CE    
+                GC     
+                GB     
+                EE     
+                EEE    
+24
+73 F G
+76 F A
+38 H E
+12 C D
+89 B F
+86 A G
+91 E C
+81 A D
+72 C D
+57 C G
+51 F G
+74 A C
+92 A B
+26 A F
+46 F E
+77 A C
+82 A C
+38 D F
+92 G C
+34 F D
+11 H A
+23 G A
+100 G E
+80 C G
+4 3
+ KK 
+NNNN
+NQNH
+13
+3 N H
+74 N Q
+21 K Q
+91 H Q
+61 Q N
+18 N Q
+84 Q H
+86 N K
+16 N H
+66 K H
+3 N Q
+34 K Q
+95 H N
+15 7
+       S   ACC 
+     WSS  TTTCS
+    HHSSOIITT  
+    HH SPIIT Q 
+   K HHH  N HH 
+  IIRRHH NNEHHH
+RII RR HSSELH H
+68
+68 N C
+69 S Q
+60 O L
+4 T Q
+100 S L
+32 R E
+37 L I
+87 O N
+42 W S
+50 T O
+78 W C
+18 R C
+41 E Q
+93 W C
+67 Q N
+25 S I
+94 C Q
+97 K R
+44 K N
+27 E I
+71 K C
+97 S A
+61 K E
+32 C T
+26 E N
+45 I C
+13 P K
+79 N I
+34 P Q
+97 L T
+35 N H
+97 E C
+52 S E
+83 L I
+8 H P
+48 L C
+8 C O
+85 W A
+13 I S
+82 K I
+68 S K
+40 S O
+35 Q K
+27 H E
+33 A C
+24 K C
+64 I O
+47 N E
+26 R N
+30 I S
+65 C L
+61 Q O
+57 N L
+81 H R
+2 E K
+3 K I
+62 T P
+17 A S
+61 Q W
+53 N S
+30 K C
+58 E A
+51 N S
+18 S T
+35 H R
+15 C A
+23 S E
+44 H A
+15 7
+            EO 
+ A          E  
+AAI     JJJ CCC
+A DD   OGII KCC
+AA DKKNNGGGGK  
+A    KKNGGGM DD
+     KKKH GGDD 
+12
+32 C G
+42 I J
+38 D H
+37 C J
+46 H D
+81 N K
+29 M H
+88 O A
+67 A N
+35 A G
+84 J I
+89 C J
+6 5
+   C  
+  AA A
+ BAAAA
+BBAAA 
+ BA   
+8
+48 A B
+7 B A
+66 C A
+36 B A
+11 B A
+45 B A
+47 C B
+13 A C
+7 9
+   H   
+ J H N 
+JJ KNNN
+ JJKN  
+ JPKE  
+  PKE  
+   TT  
+    T  
+   MMM 
+34
+69 K J
+24 M N
+83 K N
+78 K P
+98 J E
+69 P T
+48 K N
+12 T E
+94 M P
+86 H K
+8 H P
+8 E P
+25 T H
+61 P E
+1 T J
+49 M N
+18 E M
+14 J N
+2 P T
+86 E P
+29 H M
+51 H J
+10 J M
+11 H J
+81 K N
+55 N T
+93 K P
+54 T K
+93 T J
+49 E J
+2 H T
+22 K T
+3 M P
+63 P K
+3 4
+DD 
+DDD
+DAA
+ AA
+3
+85 D A
+21 A D
+88 D A
+5 7
+ C F 
+ DDD 
+   E 
+DDDDD
+  FFF
+   FF
+    C
+9
+81 D E
+16 F C
+51 C F
+47 D C
+31 C E
+28 C F
+45 C F
+76 C E
+48 E D
+5 4
+OO   
+O    
+OOOOO
+  N  
+8
+3 O N
+15 N O
+17 N O
+55 N O
+20 N O
+28 N O
+81 O N
+90 O N
+74 40
+     CL OHH      FBBBL N             KI         FOEOOMMD  BBBI GG GFFF    
+   CC IBO H       BBBLLNDCCCE        KI          LLOODM KKKB FLGMIIEAAAFLL
+EEEECHHHHD     NNNNBICA   LLLL        IIAO     CCL OOAAAAHLLFFJGIHH AAAL H
+  KHHHHAGGG    N DBBICCCBL LF        JJHH  KKKKILE HO    HGL  MGIHHHAAEGIE
+   H MHGG GGC II D BII CCE HEEBBBBHHJCCLLLLKFKIFEILNN    OG          OOII 
+  NN   GGF  CFII   BI   EA EEKBBB L JF      FFFFEEEHH    GG   M      MCI  
+  J    DG   III  OOE   OAA  EEKKB O  FF    FFFFFA N  KKK  GM IC     MCCII 
+  KH   DDDDCCILLMOOED  AI   FF   OA  F     N   MANN KKKF  BJICC      C    
+   O     DDC IILMOLLEKKI         OA       NN KK  NN   MMMMMMLL            
+  OBB    MIIBIIMAOAAEBB C         A B    CN   K      MAA   OL             
+  BFB NNMMM   FFFNJ  B CCCE       ABB    CC AAAA           LL             
+  BGLLL M     FFF JB   MCEA     HI B I  C CC  BB           DL             
+   G L  MMH  MM  OA    H EA    HI    KKFE AC  GFF          ML             
+   C          FFFJJ    H   O   HHL    KKK ACCCFC                          
+  CI         JEEFCJJJ  MMA OO   HCC JJKKKCCICCGG                          
+JJII         EEOJ JJBI EI  MMMMKH M LJKKKK  NNG                           
+ J           EOOJBOMMIII  MEMMMB OM KJKFK   N                             
+             BCC BMMMMM   K  FF OOOO JKDD  ENCCE                          
+         I CCBKE           AAFGGO   OO   BBEABBB                          
+         ICGOKKE     NNNE  AAGGCC   O    BBEABBBBDD                       
+            OKK     CNNNEEEAE GCC HHO     AA   E DDN                      
+                   CCC  AEEAA  CFOHFO     MM  LL  NN                      
+                    C      AA  HEOHNOOO      LLL   N                      
+                GNK CGG         EEENN OO  N OLOLLL                        
+                 FFFCCGAC      AAA  A OCCGNOOO L                          
+                FF   OEA       A AAAOOOCHGNBBO   KN                       
+                FF   ODA          ANAONCCGGBJ   KKL                       
+                GFK NON           NNNNN  G BF   FLK                       
+                  O I J           NKN  EKKKBB   AL                        
+                 F CCJJ            K      KKB  AAH                        
+                 FFM M                    K  EEE  H                       
+                JFFFDM                    A EEM MHH                       
+              LJJJJFFFFJ                  JMEEAII                         
+                 JJFFEHAHKK                MEE                            
+                  E FIGJ KC                G                              
+                  EEI MJ                                                  
+                   B  HHH                                                 
+                  AO  BH                                                  
+                      BB                                                  
+                      NN                                                  
+63
+54 G F
+48 L G
+76 M H
+86 N J
+94 O A
+25 N E
+23 J A
+79 E I
+26 O C
+96 D G
+84 A I
+83 H M
+21 J E
+39 M B
+46 G M
+29 M A
+27 O C
+47 O L
+79 B O
+77 B M
+93 B E
+46 C G
+51 A F
+95 E H
+35 K O
+30 O F
+67 D O
+53 D H
+60 A J
+9 K B
+25 B I
+31 B E
+53 I H
+2 J B
+52 A C
+92 C N
+78 K B
+35 L F
+90 N M
+3 H L
+30 M A
+86 B G
+63 D J
+10 M O
+43 G F
+41 B I
+82 M B
+54 D A
+61 O F
+58 N B
+6 D I
+1 O L
+39 C J
+52 N D
+67 B L
+84 B L
+7 C M
+73 J H
+9 K N
+47 J F
+22 B C
+98 I J
+38 H M
+7 9
+C      
+L     E
+LL  WNM
+ LLL MM
+QQL  JJ
+HSS TRS
+HHHHTTS
+NU HAQQ
+I  FA R
+25
+37 T H
+12 C F
+28 F A
+1 T M
+67 J U
+76 S F
+6 F A
+99 U W
+20 Q H
+50 M R
+24 A E
+16 E M
+11 C H
+86 N J
+43 S M
+17 S I
+27 H F
+80 H U
+60 F R
+32 L S
+25 S Q
+14 Q F
+16 S N
+59 C S
+51 Q N
+22 20
+                   LGG
+                   L G
+                  MEL 
+                  EE  
+                  EE  
+                  E   
+                  EB  
+                 CEEE 
+                 EF E 
+            L  IIEE   
+            L CCII    
+            LLL       
+            LLA       
+            LAAAAG    
+     CB  GNNLL  A     
+     CBLGG     MAKK   
+    HHLL G       HH   
+   HH    G            
+JJJHH                 
+ JJJJ                 
+53
+95 N E
+79 F J
+43 L M
+9 K J
+3 J L
+12 H C
+59 E F
+48 C N
+37 I M
+83 J B
+99 F N
+83 J K
+20 L E
+31 K L
+46 G F
+60 L J
+59 N G
+62 F H
+3 F E
+61 C J
+82 H C
+31 I C
+100 L I
+3 L E
+12 C F
+72 N B
+14 C F
+24 K L
+10 L A
+75 M B
+40 G M
+38 J M
+99 H N
+100 H N
+24 K H
+94 L C
+69 C E
+33 L A
+1 B M
+45 E I
+49 H B
+75 H L
+38 N K
+84 M K
+38 A M
+38 H K
+44 A E
+7 L E
+87 H G
+41 M B
+99 I N
+11 B G
+1 J K
+31 44
+      B                        
+KK   ELL                       
+LL  FEC                        
+LL   EC                        
+ BBAJEEEI   E      J           
+ BBAAA L  MMEE     J           
+ B AAALLLMLNE      JJ          
+CBFBBBB  MMMM   DBBK           
+ HFAIIE  MMC      LLF          
+GGGIIEEB MMC     LLL           
+GFF IDE  MMM AAAAA L           
+A   C E    MMADAL              
+A   C F      A LLA             
+A   CC L      DDDD             
+H    CCCC N   FD               
+     CCCJJA    D   H           
+      LFJJJJ   DAEHHH          
+      FF FJ       HH           
+       F           HHH         
+       F   D      JBBB         
+       JEEEDD     CBBBBB       
+        LEEJDAG    B BJJ       
+        LLJCMAAII  B  NL       
+        L JM AII   B           
+       NL JMMN GGGDB           
+       NN JMMI  GGDB           
+       N   CFF   KDD H         
+           CFFF  KKKMMM        
+              AK K   HH        
+             AAA K  HHH        
+             AAA     CCB       
+             BDFFFF  K         
+             B F JJ  K  NA     
+                    IIHHNF AAA 
+                    IIL HLIIAAA
+                    IIGGHL NJJ 
+                   III  G NJF  
+                    II    NNNM 
+                   CIJJ   NNH  
+                   CJJ     HNN 
+                     J    IHN  
+                          IINN 
+                         DGGG  
+                        EHG G  
+60
+90 E L
+23 B A
+89 D M
+94 H G
+92 K L
+21 H I
+98 F K
+62 I E
+6 H N
+95 F H
+4 B D
+12 N M
+4 K L
+91 J B
+37 K E
+70 N L
+2 H N
+100 K H
+90 H J
+55 H G
+90 L I
+16 I B
+99 K D
+33 H E
+45 A L
+73 M I
+57 I B
+63 B G
+25 B K
+75 M H
+13 M E
+52 A B
+23 E N
+24 M A
+44 J A
+50 E B
+57 L D
+70 M C
+87 F J
+10 E D
+17 E N
+96 I E
+70 G K
+25 B K
+99 B A
+86 D L
+85 M N
+4 F D
+85 B F
+69 K D
+6 E I
+99 G B
+2 I M
+12 M J
+63 A M
+50 A E
+41 A H
+57 D J
+78 D N
+42 N C
+5 9
+GL I 
+LLLLL
+LLL  
+ LLL 
+ L   
+ LL  
+IL G 
+IIIG 
+I    
+6
+39 L G
+29 L I
+53 L G
+79 G I
+45 I G
+69 I L
+15 13
+PFF NRCCLLLPPRR
+PFFFFFFF LLLP  
+   BBF   LQ    
+    BBBBBB     
+      JJB      
+     JJF       
+     NFFFP     
+     N DDP     
+   INN DDD     
+     NNDD      
+       D       
+   GGGGD       
+  GG           
+16
+2 I P
+1 G Q
+2 P B
+17 I R
+35 G R
+66 C R
+45 R P
+38 L J
+90 Q B
+71 J L
+87 I N
+14 I B
+20 D C
+26 R Q
+17 R F
+76 P D
+7 9
+     DD
+     D 
+     C 
+     C 
+     C 
+  DDDD 
+DDDDD  
+ DDDCC 
+ D  CD 
+0
+9 7
+   HH    
+   H     
+D GH     
+DGGG  ADD
+  GMGAA D
+      A D
+        M
+24
+80 G M
+83 G A
+73 D A
+90 G M
+41 H G
+84 A H
+60 M G
+60 D G
+99 G M
+25 H D
+81 A M
+65 M D
+12 M D
+36 D H
+19 M D
+94 G A
+18 H A
+25 H G
+5 A D
+18 G A
+84 A M
+72 M G
+59 M G
+20 D A
+4 7
+BB  
+BGE 
+FFG 
+FFF 
+F F 
+FFFF
+   F
+10
+28 F B
+62 G B
+60 E G
+8 F B
+59 F B
+42 B G
+4 G E
+17 E G
+9 F E
+66 B F
+13 21
+        E    
+        EE   
+        EE   
+       FE    
+      L EA   
+      LLGA   
+      LLHA   
+      OLLA   
+       LE    
+      AGGGG  
+       HHE   
+        H    
+K OKB   H    
+KKKKKKKCHH   
+ O  K   H    
+    KKB HNN  
+        HCC  
+          CC 
+          FJJ
+          FFF
+           F 
+9
+44 G K
+47 N J
+20 B J
+74 C J
+65 O L
+27 C L
+80 J G
+9 G A
+16 B H
+10 6
+    U     
+  L A     
+III A     
+ IIIII    
+  IL SSSVV
+  IL    V 
+14
+44 I S
+67 L V
+24 V S
+83 U V
+48 V U
+8 U S
+28 L A
+63 A S
+27 S L
+19 A V
+83 A V
+82 U I
+78 I L
+29 A V
+15 8
+UU  K    HHLJJO
+ UUKKKK HHHH   
+  UWKK HHHHH   
+    KJJJ  H    
+    J          
+    U          
+   KUUU C      
+    U UUC      
+11
+36 H C
+43 J H
+70 L C
+75 K J
+91 L O
+86 J L
+62 K L
+82 L C
+2 J L
+98 C W
+74 H O
+7 9
+  OO   
+  O    
+FFO    
+ FO    
+  OO   
+   O   
+   OO  
+    OQP
+    O  
+17
+68 P Q
+62 O Q
+46 P O
+64 F P
+53 F O
+26 P F
+76 Q P
+84 F P
+75 O F
+37 F Q
+24 F O
+69 F P
+65 Q F
+33 O F
+92 F O
+61 F Q
+4 Q F
+91 19
+  JMDDHKKAADMEE JJDB   MBEEJFKJ       M KKKKI MBB             DDCC               EE  H GG L
+    DHK  GGMMJHGJ  BB  AA KLFKJFF     M KK K MAFBB          K  CHC               LH HH  BBB
+ BBEGHBBLGG  IIHJ  BCCCMD LLF JF      FFKKKK  M GGHJ        KEEEEDMMKKK    A  KEAJAAFF HH  
+BBBBGBEECGIJIHHDDDD DJEM   L KJFKK L CDIIKK     GGHEE K     EEEEEDMDIKI    D  KEEJAAAF K   
+BBBBBEEEEGLJJ   DDG   GM      JJ EBLEDDD KK KK IMM EEEE    AAALLDMMDGKI   DDDFF GGKG BBB   
+G  BAAAEIBBBM  IIGLLIEBMKKL   MJK BLLAADKKLLLBAMMMFEE      AAAAMM MJ  I  MLDDFFKJJ FBBBB   
+G KGIIMJJBBKKF LLLHHHHCCBCCB CCJ LC FFAA LL  D MMMMMHD  FFJ IIAA  JA GGG    D KKHJFDBAABB  
+JG IIBFJJ  CK    LAHHDCCMMCJJAAIIL  LLLAALLFFFFKMM HHJ JFHHHCIIIIJEEC DJ  II    IIDDAIAAA F
+K  DDDFMM        LLLIAHCMMCJJHIJJ DKKD AAAAFFFHHD  LHDJCCCC  JJIII    DB JDHM  MF HDA  AJLB
+KF D D M        ML  I BBMMJJJ J FCC K  AADDDFFHJD  L EJJCCC   J IM C  EEEKCMMCCFDD DDDIA   
+F    D             LI MK MJJMMH  IA FFFABAA   J LJ  FFJJJJJJ     MHGG    CEMMMLLADJ DHI    
+M                      K  JMMMH  LA EB AAAKM LJ      FIMKJJ   HHHHHGMMM FELLMMMLMJJ DDII   
+                       KKM  JB  GGALA   AKLBBB     H FM ID        HGG   EECCCMMDDJGGDEEE   
+                               ILH E    AAAABEK HHHF     DA  GGFKL FGJJ EDC C EEDGGH       
+                                L       B  A  KKHH     JJBA ILJFK HH   MEE    EBBH         
+                           CAAC E          I KGGGG   EEB AAAIIIFF H  DGEEE BJJEEBH         
+                             ACDL            C JJG I     IAAIMKKKF  HJGEH    JJ BB         
+                              D            GIC BB CCH  EEB LIIIII    GK       G            
+                             KKD            ICC B IHHHEB BBFFHICII  JGG      GGG           
+0
+17 15
+    S            
+    SSSSS        
+    OSS  OO      
+QMEEEES  OOO     
+QQT MEE XX L     
+  T WTTTXX       
+    TT TXXXX     
+      NN XXXXX   
+     NNNPPP X E  
+       N    CET  
+           CCTT  
+           U  TII
+              II 
+            CCCI 
+              CC 
+8
+87 C P
+3 I C
+33 P T
+81 L C
+83 S U
+86 T S
+27 P Q
+17 O Q
+5 5
+B    
+BB EE
+ BEEE
+ BEE 
+ BBE 
+8
+76 B E
+16 B E
+4 B E
+14 E B
+56 E B
+41 B E
+61 B E
+25 B E
+5 5
+ B   
+BB   
+CC   
+ CCCC
+    C
+6
+15 C B
+99 B C
+80 C B
+52 B C
+62 B C
+10 B C
+7 6
+II     
+II     
+ IIII  
+  IGI  
+  IIIII
+      I
+1
+72 G I
+12 18
+    EA      
+ DDDD  E    
+DE DDD EA   
+   DDD BAABB
+   DCCCC  AA
+   CC D     
+  DCBD      
+   EEE      
+  EEE       
+ AEEEA      
+ AD         
+ AAAAEB     
+ A    AD    
+   A   DD   
+  AABB AD   
+   ABBDC    
+   A BB     
+    EEEE    
+20
+47 B A
+42 A E
+60 B E
+13 D E
+44 C B
+23 B E
+7 E B
+16 B D
+99 B C
+81 A E
+82 A B
+2 D C
+58 D E
+72 B C
+89 D E
+6 E B
+48 B D
+7 C A
+14 A C
+97 D A
+15 9
+     E         
+    BB         
+  II BBBB      
+  IA CD AA     
+ CCADDD AAFF   
+BE AB  CA FFFFF
+          FFFF 
+           F   
+           II  
+11
+42 A I
+65 A E
+95 A B
+13 D A
+48 D I
+73 F A
+63 F B
+48 D B
+98 I A
+11 I C
+88 B C
+41 32
+         OBFF QQQ BYKKX  OOGCC           
+        BOSYYYSS  BAKRX LL   R           
+         SSFRRS HHHXN   LL               
+         SS  NS  CLNN GALL               
+          AAN  RRCCNDDDHHLJ              
+           GGG B   N DBRHLLL             
+           KKGBB   NN BMI  L   N  Y      
+    T       QGGB        IGGM  GGGHFF     
+   QMBB    LQ      D  FMIEG  G ZHW  O    
+   QQ    OW LMVV   D   LC RC GGGGG  O    
+  ZZO    OHHXXUF UJD   CCCCCCG GGGGGG    
+ DAGO    OQQ  FLGJJX M GKUUFF CZZ        
+ DGGOZ   HQQ   LGGJKDKKKKUUF PPPZZLJ     
+PPGGGG   HQQQ KL G   SSSKUHH  JPYYW      
+XPSVVVI ZHHTJJJ  BR  PUSVU     Y WWW     
+X  V KLAZZQQVU      EE  X     RCSWWWQ O  
+ AA KXLAAQQQQUP         X        WW JJJ  
+AAA  XPALLLLLPK Z       XX       WW QQO  
+AEEYLXFLLLL IIY Z       X        IPPP    
+E EE XWAGFL   YLZ               K P      
+  M   AJJP    YY               RKKHWW    
+  M VVVTTTS   MYS             YPRRAA     
+   AVOGTTCUPPPP            VVYYRRR  JC HH
+   NO GGBBPPPNN     JAA       YRRR JJYY Y
+   UUURB GGSL N  DW JAAAG      ZZR JY YYY
+    UAQB  KRLK    BBRAAAG   ZZKK   JYYYYQ
+    HAQ   KRRIN  BBRRA GGFBGGKKK HYYYYYX 
+   W F    KKKEE  PFUUA GGFFGGR KHI YYNX  
+WWXX FO  CDKKMM PXXA  VGGGGGFNV II  NNX  
+AAAX  OOOO  KMMUUBXX    FE GGJ   II   X  
+ K X   N OOTTAMYBBXKKN      GVSIQQ       
+   XMYVV  TTFAYFFXXXN      PPVSIIQ       
+92
+70 E X
+71 V F
+26 C J
+82 R T
+47 C Y
+72 C M
+31 Z F
+28 G R
+77 V T
+66 E Z
+65 P L
+79 Q K
+98 R C
+85 W A
+60 G B
+90 A B
+12 K H
+91 X N
+66 T W
+70 W V
+64 D F
+50 D E
+14 M A
+81 D I
+70 X F
+21 I P
+84 T P
+44 E N
+74 A I
+4 F K
+84 C Q
+12 X N
+36 L K
+77 Q U
+38 J M
+33 I A
+67 S F
+61 H V
+3 V P
+12 O X
+56 T Z
+32 N P
+93 K Q
+75 O G
+87 M S
+90 F N
+2 O L
+56 R Y
+65 J C
+55 O C
+72 O Q
+2 Q I
+29 I E
+58 D A
+4 A G
+76 S P
+79 M W
+61 B F
+81 K G
+45 F I
+30 H A
+33 T H
+36 G E
+14 V J
+81 A Z
+37 K I
+55 Y F
+27 F K
+23 M L
+94 K V
+75 O D
+24 N O
+85 X W
+86 Q I
+12 L S
+60 Q W
+9 A V
+71 I N
+15 X P
+12 Y E
+81 G H
+83 Y F
+34 C T
+70 E J
+93 O S
+20 L N
+9 N W
+61 W K
+6 V O
+41 N F
+57 S Q
+65 M T
+18 15
+     GAAAA        
+         Q        
+        QQ  DD    
+       JJQD DD    
+  G   JJGQY LY   J
+ GG QQJGGYYYLLLL J
+RGGKQ T  YHCL L  J
+R G RG     CLLLLFF
+RRR  G    GOLLQ   
+RRKK G    G  LL   
+     G      I LL  
+       GGGG J RR  
+          GNJJRKA 
+          GGGHRR  
+         EG OD    
+64
+46 J T
+6 I Y
+98 I G
+27 L I
+38 F O
+31 J G
+14 J D
+23 O T
+46 O G
+47 C E
+100 Q F
+56 J I
+86 C I
+91 H D
+52 T E
+5 I R
+49 R D
+59 D O
+23 J L
+88 I Y
+65 C T
+52 J G
+80 E A
+56 A G
+36 T D
+43 A K
+46 Q N
+69 L I
+65 I E
+90 A N
+69 J E
+86 E T
+58 T Q
+52 G R
+75 H A
+58 O Y
+20 C T
+18 T E
+93 Y T
+24 Y Q
+15 A J
+79 R Y
+19 T H
+89 N F
+19 R N
+25 G I
+22 O H
+72 O F
+23 Y E
+51 J F
+17 J A
+12 Y N
+14 H I
+36 Y R
+3 R I
+47 K I
+71 O I
+30 H L
+92 A T
+30 F C
+26 K E
+1 H E
+35 C G
+75 Q N
+9 9
+  M      
+  D      
+  F      
+EEF      
+  F      
+  FFCG   
+   FCGGGG
+   O G   
+     GG  
+5
+66 D F
+67 E M
+66 G D
+58 D G
+6 O C
+6 8
+EEE   
+ E D  
+ EED  
+  EDDD
+   D  
+   D  
+   DD 
+   ED 
+1
+73 D E
+47 31
+     II TTT EEBBVVNVTH                         
+      WSRLK JEDB                               
+     WWSR GGI    RRK                           
+    WWDSR G I    GRK                           
+    W DEECGE     GVK   C                       
+    T  ECQQMM      UUNNN                       
+   T NEEE Q MM     OFNNTK                      
+  PT MEE    MU       NNKK                      
+  MH        SUU  U   OOWK                      
+   HHH  LQ  PUUPPPBB  HWW                      
+   VH   LL   OU  PPP   HKK                     
+   VVVVVVLU CCTTTWWTQ  JJK                     
+     VRJAAAAA I  VRTQC LRK                     
+    AARWAA  AAMM CQQQ GQGK                     
+     FWWSBWS A MCQQWWWQQQQ              I  BB  
+  QMJ SW BB  AAMMOQ JCCCC   RR          PDDI   
+ PQQQ QWWW    RMMQ OAACCWWWVR           PJ IIB 
+ PGQQJMWWQ     MRR LAAEEEWWFR          MJJD    
+GRRRRR W QWT    RBBEAA  EEFF      E   RRJ DJ   
+G  RR  WUQQQUWW  U VVA SSSGFW   GEEEE     DD   
+A  R     QMM WW UBVV AS  GGFAA GWWEWD     LL   
+        AJ    P DBV JJSSSSSSAAAAAAEIDD  MLSS   
+         J  HH  II  BJ   SG ADOARRRROVV  LSSS  
+          QHHHHVAI ITJJ U  W DDN PFRRVMDDDHHHK 
+          EEERHV   IIJJJJ  WWDVN    TT  M H HHC
+            QQHV    IDJJURTTWWWW   CTP GG   E  
+             SSV  PWIDJJJRTTP III H PPGQGCR    
+                 CCC  JF    PPPIIJHS  GV R     
+                CCMH VJJ    PPSIIJSS  PPPRR    
+                  HH UQQIIS ISSSSJNSK  B       
+                  QIIUQQISS IW  SSK            
+2
+61 N R
+52 T U
+7 10
+   AA  
+   A   
+   AAAA
+   A  A
+   A   
+   A   
+   SSD 
+WWWS D 
+  I    
+  I    
+21
+91 W I
+51 I A
+81 D W
+4 S D
+71 W S
+62 W A
+100 A I
+16 I S
+73 W S
+3 D W
+7 W I
+42 A W
+67 D I
+69 D W
+63 W S
+24 W A
+98 W S
+85 I D
+39 W I
+68 W I
+81 D S
