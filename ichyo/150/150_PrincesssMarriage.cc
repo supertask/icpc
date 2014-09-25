@@ -1,4 +1,3 @@
-/* WA 0点 */
 #include<iostream>
 #include<map>
 #include<vector>
@@ -20,28 +19,45 @@ template<class T> void chmin(T &t, T f) { if (t > f) t = f; } //t=min
 template<class T> void chmax(T &t, T f) { if (t < f) t = f; } //t=max
 using namespace std;
 
-int main() {
-	int N,H;
-	int A,B,C,D,E;
-	int mini = INT_MAX;
-
-	cin >> N >> H;
-	cin >> A >> B >> C >> D >> E;
-	rep(X,N+1) {
-		int need = (((N-X)*E - H - B*X) / (D+E)) + 1; //質素な生活に必要な日数Y
-		dump(X);
-		dump(need);
-		int ans = A*X+C*need;
-		dump(ans);
-		chmin(mini,ans);
-		/*
-		REP(i,need,N+1) {
-			int ans = A*X+C*i;
-			chmin(mini,ans);
-		}
-		*/
+struct Danger {
+	int D; //距離
+	int P; //期待値
+	bool operator<(const Danger& right) const {
+		return D > right.D;
 	}
-	cout << mini << endl;
+};
+
+int main() {
+	int N;
+	long long M;
+	int D,P;
+	while(cin >> N >> M) {
+		if (N==0&&M==0) { break; }
+		vector<Danger> dangers;
+		rep(i,N) {
+			cin >> D >> P;
+			Danger a_danger;
+			a_danger.D = D;
+			a_danger.P = P;
+			dangers.push_back(a_danger);
+		}
+		sort(ALL(dangers));
+		int ans=0;
+		rep(i,dangers.size()) { //P（期待値）が高い順
+			if (M > 0) {
+				if (dangers[i].D >= M) {
+					dangers[i].D = dangers[i].D - M;
+					M = 0;
+				}
+				else {
+					M = M - dangers[i].D;
+					dangers[i].D = 0;
+				}
+			}
+			ans += dangers[i].D * dangers[i].P;
+		}
+		cout << ans << endl;
+	}
 
 	return 0;
 }

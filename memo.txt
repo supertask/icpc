@@ -1,9 +1,10 @@
 # struct sort
-typedef struct nnname {
+struct Nnname {
+	int light;
 	bool operator<( const nnname& right ) const {
 		return light > right.light;
 	}
-} Nnname; #atcoder003
+}; #atcoder003
 
 # vector
 sort(all(vectorやlistの要素)) #n*log(n) #atcoder003

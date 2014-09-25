@@ -20,6 +20,9 @@ template<class T> void chmax(T &t, T f) { if (t < f) t = f; } //t=max
 using namespace std;
 
 int main() {
+	char X;
+	cin >> X;
+	cout << (X - 'A')+1 << endl;
 
 	return 0;
 }
