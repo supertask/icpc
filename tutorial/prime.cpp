@@ -50,6 +50,10 @@ int main() {
 	if (is_prime(n)) {
 		cout << "素数" << endl;	
 	}
+	else {
+		cout << "素数でない" << endl;	
+	}
+	/*
 	res = get_divisor(n);
 	//res = get_prime_factor(n);
 	sort(all(res));
@@ -57,6 +61,7 @@ int main() {
 		cout << res[i] << " ";
 	}	
 	cout << endl;
+	*/
 		
 	return 0;
 }

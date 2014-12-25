@@ -1,0 +1,22 @@
+4
+5 3
+g g g g c
+g p g p c
+p p p c p
+2 4
+g c
+p g
+c p
+g g
+3 5
+g c p
+c g p
+g c c
+c p p
+g g p
+3 5
+g g g
+p c g
+g c c
+g c c
+p p c
