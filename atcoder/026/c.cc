@@ -20,24 +20,30 @@ template<class T> void chmax(T &t, T f) { if (t < f) t = f; } //t=max
 using namespace std;
 
 int main() {
-	int N,M,Y,Z,p;
-	char c;
-	string bs;
-	map<char> stone_points;
+	int N,L;
+	int l,r,c;
+	vector<int> ls,rs,cs;
 
-	cin >> N >> M >> Y >> Z;
-	cin >> bs;
-	rep(m,M) {
-		cin >> c >> p;
-		stone_points[c] = p;
+	cin >> N >> L;
+	rep(i,N) {
+		int tmpmin = 99999999;
+		cin >> l >> r >> c;
+		ls.push_back(l);
+		rs.push_back(r);
+		cs.push_back(c);
 	}
 
-	vector<int> dp_buf(bs.size(),0);
-	rep(i,bs.size()) {
-		if (i == 0) { continue; }
-		dp_buf[i] += stone_points[bs[i]]; //色のボーナス
-		if (bs[i-1] == bs[i]) {
-			dp_buf[i] = dp_buf[i-1] + Y; //コンボボーナス
+	rep(i,N) {
+		rep(j,L+1)
+		{
+			if (j < ls[i] || k > rs[j]) {
+				dp[i][j] = dp[i-1][j];
+			}
+		}
+		rep(k,ls[i],r[i]+1)
+		{
+			dp[i][k] = min(dp[i][k], tmpmin + cs[i]);		
+			tmpmin = min(tmpmin,dp[i][k]);
 		}
 	}
 
