@@ -17,7 +17,24 @@
 
 using namespace std;
 
+struct Node {
+	string M;
+	int depth;
+	vector<Node> nodes;
+}
+
+void addNode() {
+	
+}
+
 int main() {
+	int N,k;
+	string M;
+	cin >> N;
+	rep(i,N) {
+		cin >> k >> M;
+		add_node();
+	}
 
 	return EXIT_SUCCESS;
 }

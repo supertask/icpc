@@ -24,12 +24,12 @@ struct UnionFind {
 	int size(int x) { return -data[root(x)]; }
 };
 
+
 int main() {
 	int N,M,u,v;
-	UnionFind uf;
-	vector<pair<int,int> > edges;
-
 	cin >> N >> M;
+	vector<pair<int,int> > edges;
+	UnionFind uf;
 	uf.init(N);
 
 	for(int i=0; i<M; i++) {
@@ -37,17 +37,19 @@ int main() {
 		uf.unionSet(u,v);
 		edges.push_back(make_pair(u,v));
 	}
-	vector<int> true_edge_sizes(N,0);
+
+	vector<int> graph_sizes(N,0);
 	for(int i=0; i<edges.size(); i++) {
-		true_edge_sizes[uf.root(edges[i].first)]++; //ルートの含まれる木のサイズをカウント
+		graph_sizes[uf.root(edges[i].first)]++;
 	}
+
 	int ans=0;
 	for(int i=0; i<N; i++) {
-		if(uf.root(i)==i) { //ルート（長老）の要素のみ
-			ans+=(true_edge_sizes[i] == (uf.size(i)-1));
+		if(uf.root(i) == i) {
+			ans += (graph_sizes[i] == (uf.size(i) - 1)); //エッジの数を比較
 		}
 	}
 	cout << ans << endl;
-	
-	return EXIT_SUCCESS;
+
+	return 0;
 }
