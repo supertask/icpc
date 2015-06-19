@@ -23,29 +23,32 @@ int main() {
 	
 	is_prime[0] = false;
 	is_prime[1] = false;
-	REP(i,2,PRIME_MAX) { is_prime[i] = true; }
-	REP(i,2,PRIME_MAX) {
+	REP(i,2,PRIME_MAX+1) { is_prime[i] = true; }
+	REP(i,2,PRIME_MAX+1) {
 		if (is_prime[i]) {
-			for(int j=i+i; j<PRIME_MAX; j+=i) { is_prime[j] = false; }
+			for(int j=i+i; j<PRIME_MAX+1; j+=i) { is_prime[j] = false; }
 		}
 	}
 
-	int ans;
-	int prime_cnt;
 	int a,d,N;
 	while(cin >> a >> d >> N) {
 		if (a==0&&d==0&&N==0) { break; }
-		ans = a;
-		prime_cnt=0;
+		int prime_cnt=0;
 		while (true) {
-			if (is_prime[ans]) { 
-				prime_cnt++;
-			}
+			if (is_prime[a]) { prime_cnt++; }
 			if (prime_cnt >= N) { break; }
-			ans+=d;
+			a+=d;
 		}
-		cout << ans << endl;
+		cout << a << endl;
 	}
+
+	/*
+	int cnt=0;
+	for(int i=0; i < PRIME_MAX+1; i++) {
+		if (cnt==N) { cout << i << endl; break; }
+		if (is_prime[i] && ((i-a)%d==0)) { cnt++; }
+	}
+	*/
 
 	return 0;
 }

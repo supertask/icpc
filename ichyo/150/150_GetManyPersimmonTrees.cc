@@ -1,3 +1,4 @@
+/* http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1125 */
 #include<iostream>
 #include<map>
 #include<vector>

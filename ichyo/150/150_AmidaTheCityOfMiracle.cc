@@ -37,14 +37,6 @@ int main() {
 			amida[Q][H] = P;
 		}
 
-		/*
-		rep(h,7) {
-			rep(w,7) {
-				cout << amida[w][h] << " ";
-			}
-			cout << endl;
-		} */
-
 		now_amida = A;
 		for(int h = 1000; h >= 1; h--) {
 			if (amida[now_amida][h] > 0) { //次の網だがあるとき

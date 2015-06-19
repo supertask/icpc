@@ -1,3 +1,4 @@
+/* http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp */
 #include<iostream>
 #include<map>
 #include<vector>
@@ -13,33 +14,35 @@
 #define rep(i,n) REP(i,0,n)
 #define rep_split(tok,a_str,re) for(char *tok = strtok((char *)a_str.c_str(),re); tok != NULL; tok = strtok(NULL,re))
 #define ALL(c) (c).begin(), (c).end()
+#define MAX_SIZE 50
 #define dump(a) cerr << #a << "=" << (a) << endl
 
 using namespace std;
 
+
 int W,H;
 int sima_cnt;
 int sima_size;
-int sima[51][51];
-bool is_visit[51][51];
+int sima[MAX_SIZE+1][MAX_SIZE+1];
+bool is_visit[MAX_SIZE+1][MAX_SIZE+1];
 
 int dw[8] = {1,1,0,-1,-1,-1,0,1};
 int dh[8] = {0,1,1,1,0,-1,-1,-1};
 
-void saiki(int w, int h) {
-	int aw=0,ah=0;
+void dfs(int w, int h)
+{
+	if ( && is_visit[aw][ah]) { return; }
+	is_visit[aw][ah]=true;
+
 	rep(i,8) {
-		aw = w + dw[i];
-		ah = h + dh[i];
-		if ((0<=aw && aw<W) && (0<=ah && ah<H)) {
+		int aw = w + dw[i];
+		int ah = h + dh[i];
+		if ((0<=aw && aw<W) && (0<=ah && ah<H))
+		{
 			//次の島を訊ねる条件
-			if (sima[aw][ah] && !is_visit[aw][ah]) { 
-				is_visit[aw][ah] = true;
+			if (sima[aw][ah]) { 
 				sima_size++;
-				saiki(aw,ah);
-			}
-			else { 
-				is_visit[aw][ah] = true;
+				dfs(aw,ah);
 			}
 		}
 	}
@@ -50,27 +53,15 @@ int main() {
 		if (W==0 && H==0) { break; }
 		sima_cnt = 0;
 		sima_size = 0;
-		rep(h,51) {
-			rep(w,51) {
-				sima[w][h]=0;
-				is_visit[w][h]=0;
-			}
-		}
+		fill_n((int *)sima,sizeof(sima)/sizeof(int),0);
 
-		rep(h,H) {
-			rep(w,W) {
-				cin >> sima[w][h];
-			}
-		}
-
-		rep(h,H) {
-			rep(w,W) {
-				sima_size = 0;
-				if (sima[w][h] && !is_visit[w][h]) { sima_size++; }
-				saiki(w,h);
-				if (sima_size>0) {
-					sima_cnt++;
-				}
+		rep(h,H) rep(w,W) cin >> sima[w][h];
+		rep(h,H) rep(w,W) {
+			sima_size = 0;
+			if (sima[w][h] && !is_visit[w][h]) { sima_size++; }
+			dfs(w,h);
+			if (sima_size>0) {
+				sima_cnt++;
 			}
 		}
 		cout << sima_cnt << endl;

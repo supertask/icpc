@@ -1,3 +1,4 @@
+/* D 素数洞窟: AC */
 #include<bits/stdc++.h>
 #define dump(a) cout << (#a) << (a) << endl
 using namespace std;
