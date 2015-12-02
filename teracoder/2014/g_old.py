@@ -1,5 +1,6 @@
 import math
-for t in range(input()):
+T=input()
+for t in range(T):
 	X,C = map(int,raw_input().split())
 	T,S = raw_input(),raw_input()
 	padman = list(T).pop()
@@ -21,6 +22,9 @@ for t in range(input()):
 			sin2 = int(tmp,2) #trans 2sin
 			ans+=T[sin2]
 	while True:
-		if (len(ans)*N) % 8 == 0: break
-		else: ans = ans + padman
-	print ("Case #%s:\n"%(t+1)) + ans
+		if (len(ans)*N) % 8 == 0:
+			break
+		else:
+			ans = ans + padman
+	print ans
+	

@@ -14,16 +14,40 @@ int main() {
 	int T,X,Y,N,w,k;
 	cin >> T;
 	rep(t,T) {
-		cout << "Case #" << (t+1) << ":" << endl;
+		//cout << "Case #" << (t+1) << ":" << endl;
 		fill_n((char *) wb_table, sizeof(wb_table)/sizeof(char), '.');
 
-		cin >> X >> Y >> N;
+		cin >> X >> Y;
+		cin >> N;
 		rep(n,2*N) {
 			cin >> w >> k;
 			rep(i,100) {
 				if (k==0) draw_(i, w-1, n);
 				else if(k==1) draw_(w-1, i, n); 
 			}
+
+			/*
+			if (k == 0) {
+				rep(i,100) {
+					if (n % 2 == 0) {
+						wb_table[i][w-1] = 'W';
+					}
+					else {
+						wb_table[i][w-1] = 'B';
+					}
+				}
+			}
+			else if (k == 1) {
+				rep(i,100) {
+					if (n % 2 == 0) {
+						wb_table[w-1][i] = 'W';
+					}
+					else {
+						wb_table[w-1][i] = 'B';
+					}
+				}
+			}
+			*/
 		}
 		rep(y,Y) {
 			rep(x,X) cout << wb_table[x][y];
