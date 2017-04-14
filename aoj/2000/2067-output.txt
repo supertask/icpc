@@ -44,35 +44,35 @@ AMBIGUOUS
 ((M O M) F O L)
 ((((((((((Q E X) X K X) Y N B) U M S) E V L) N W M) C C M) A F N) O R Z) F D N)
 (((((((((((((((((((((((((((((((((((((((((((((L C S) V Z K) K A H) Y T F) U E B) Q S H) U H U) A U Y) R V B) W I P) Y A W) Y K H) A T E) T Z Q) A C P) S K L) Z E D) W F A) T G A) C X T) E W Q) R F Q) K M Q) L C R) O T K) A G M) G K F) L K G) T M E) R H Y) N Z C) S Q I) G G B) J Z M) E K Z) L Y P) V D P) H M W) V Q J) C Q D) C S U) U B J) C C D) C Q K) O S V)
-(Z (K (O Z) H))
-(H (D (L (T (J (X (K (Z (R (R (M W) Z) K) K) H) C) C) D) S) W))
-(H (D (J (H (G (J (U (U (K (D (D (N (P (Z (Z (M (L (A (F (C (M (D (C (Y (N (J (B (R (P (V (N (Y (Y (X (H (G (I (B (D (S (F (I (H (W (H (G (K (U (G (R (X (V (V Z) T) K) K) W) C) Z) T) P) X) T) O) F) A) W) I) D) O) P) L) W) L) V) E) X) P) N) P) M) I) M) N) D) W) Y) C) Y) Z) V) Q) Z) P) E) G) R) B) O) U) R) E) H) P))
+AMBIGUOUS
+AMBIGUOUS
+AMBIGUOUS
 (X E (U U (G G) S X) E H)
 (P S (D X (S P (L U (B G (M F (F I (S B (W S (D V (Z O) K C) L V) S T) A D) V Z) Y R) J A) V R) X U) B W)
 (H L (M G (A Z (U I (Y F (I W (R J (E V (A M (L G (X X (Y L (C G (C T (R B (N D (M Y (A Z (K O (U U (S I (T E (Z M (Y X (D B (Y L (W D (J W (R B (C O (R L (J P (R F (U J (G B (J Q (W A (M D (C X (Y K) X G) L W) V W) X U) I O) Z Z) R C) J L) W I) J F) X C) D U) Z T) Q R) C E) M O) N B) X X) T I) Y W) W C) G A) L N) X R) Z H) M G) C W) Q R) I E) I I) X M) O U) R M) W N) K K) O U) U G) V W) Q H)
 (B G I (H Y P (N V V) F U P) D W S)
 (G B Q (X U X (T R J (D C J (G R B (M B T (M Q X (H N G (D C T (A V A (D L E) A I K) R T J) V D C) M G H) P B N) F Y B) U G N) X A X) S C C) F G E)
 (P S I (J C I (O G Z (W O W (X D I (Y F Z (E U G (G T A (J W X (R A R (M I Y (Q S O (W T Z (M P N (Q Z L (X Y K (T E I (N F P (J E X (J W I (U U A (M K M (I J C (X Y A (X L N (X W F (C G E (J X X (N V M (L D V (G F H (S T D) E V R) E Y Z) Q L X) O S W) W W T) U V V) P I E) U D U) C M F) V R N) T J G) R I K) E H Q) Y D I) U X W) R U T) Z B N) F V E) R A A) J O C) U U Y) C G T) K Y K) N H Q) M D O) H Y K) I L B) D R B) D U G) T W Z) N W K)
-(P (T Y))
-(S (I (Y (O (B (F (G (N (B (J O) F) W) X) P) A) R) F) S))
-(G (N (P (Y (J (K (X (X (Q (O (Q (Q (G (B (R (U (C (W (C (Q (Z (O (G (G (K (E (V (K (X (B (F (D (O (U (B (X (E (A (W (X (O (P (N (W (S (G (S (W (C (V (O (D (J V) J) V) Z) F) G) Y) I) N) B) W) H) C) V) N) F) U) K) T) J) A) Q) D) G) I) Z) L) D) O) O) O) J) A) K) K) H) S) I) P) F) L) L) M) P) I) B) U) C) M) O) N) O))
+(P (T) Y)
+AMBIGUOUS
+AMBIGUOUS
 (L (W A) S)
 (C (V (R (S (D (V (P (R (C (Q G) I) U) L) M) Y) E) L) C) Z)
 (H (I (N (V (H (I (H (F (K (B (J (H (T (B (L (Q (S (C (S (K (I (A (F (W (N (D (A (A (H (C (J (Q (K (X (O (T (H (V (B (T (Y (K (B (R (M (O (H (G (Q (B (R (B C) W) X) R) B) Z) R) I) B) A) Z) N) Z) N) J) I) K) K) E) I) U) F) C) I) V) L) P) L) N) I) O) P) E) N) I) H) N) Z) P) Q) B) Q) G) D) F) P) N) R) Z) R) C) V)
-(W (S S B E))
-(H (E L X S S S U Z U G Z M))
-(R (S O H O V F G I V V H M P G H R K L A X K S P E O Q Y U P K O I B X W W D C E Y Y O N P U U G G H I D R D U V R L U O C G C L H C H F H M K F M Y U B U Q K A X S F Q V Z M N M I D P Q H C Y J L F Q X P Y L P S N J L X L I P Q B L S P A E X D V N M Z N W L T O K K M W C H J N S G Z C X R D K J S M O P R L F E L U A Y P Q I C D E E K N R C V S G V K K F T C S J U L V B P I V R G N I O P L T T X I M B E F H B P R G I W A U Q M R T B Z Q V F D D V S Q Q N N Z A O F F X G W P O G L P A D D R W E S M B X Q E V K W L A J M A Z R H X Z F O O L Z F O E I F A O Y O Q X E W S R T G R E S T E M C D L H R Z U S G I W O Q W D Q K V N R R I K M Q D R I W V))
+(W (S) S B E)
+(H (E) L X S S S U Z U G Z M)
+(R (S) O H O V F G I V V H M P G H R K L A X K S P E O Q Y U P K O I B X W W D C E Y Y O N P U U G G H I D R D U V R L U O C G C L H C H F H M K F M Y U B U Q K A X S F Q V Z M N M I D P Q H C Y J L F Q X P Y L P S N J L X L I P Q B L S P A E X D V N M Z N W L T O K K M W C H J N S G Z C X R D K J S M O P R L F E L U A Y P Q I C D E E K N R C V S G V K K F T C S J U L V B P I V R G N I O P L T T X I M B E F H B P R G I W A U Q M R T B Z Q V F D D V S Q Q N N Z A O F F X G W P O G L P A D D R W E S M B X Q E V K W L A J M A Z R H X Z F O O L Z F O E I F A O Y O Q X E W S R T G R E S T E M C D L H R Z U S G I W O Q W D Q K V N R R I K M Q D R I W V)
 (U (I E P V) D)
 (Q (R S P X W D A A O V W N) Z)
 (I (A W Y N E U Q T D R B X X S B S K T L Z Q J E S K U N G T C I D B G S F A J Z E C A D Z V G S H A D I S M N L W H A D D F L I G U B L U K M A O P E N K K F R M K B F X O S V Y S A B X M J F G M R C Y D D M S J A E T H X G S Z L R N F M L X N O X B A E J M V N L B S X V B Z A V H X D B W O U M V G Z S V O R Y Q W J C T X P U P P S R O S O X R R A Q H U C C D B W Y R Q Z H M I M H H B E X Q W Q H Q E E H V H X E B B G G D C H W S G E G O S Q Y T U V M S N T I R Z R O I R S K S Y S X C Z U V F A D W S T U N P R Z H E U R V W J L E C D Q W D J W F I Q C Q S G M M B G Z R X B Y D X Q Y V B L A D O S B R B X Y M P B C H J O V K W X B V Y A Y S) X)
 AMBIGUOUS
 ((A A) A)
-(A ((B C) D) (E F G))
+(A ((B C) D) (E) F G)
 AMBIGUOUS
-(C (A B (Y Z)))
 AMBIGUOUS
-(A (B (C D)))
-(A B (C D (E F G)))
+AMBIGUOUS
+(A (B (C) D))
+(A B (C D (E) F G))
 AMBIGUOUS
 AMBIGUOUS
 (W (Q (P)))

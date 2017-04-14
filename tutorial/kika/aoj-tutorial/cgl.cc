@@ -137,7 +137,7 @@ bool intersect(const Segment &s, const Point &p) {
 }
 
 bool intersect(const Segment &a, const Segment &b) { //重なっているかどうか
-	return ccw(a[0], a[1], b[0]) * ccw(a[0], a[1], b[1]) <= 0 
+	return ccw(a[0], a[1], b[0]) * ccw(a[0], a[1], b[1]) <= 0
 		   && ccw(b[0], b[1], a[0]) * ccw(b[0], b[1], a[1]) <=0;
 }
 
@@ -149,7 +149,7 @@ bool intersect(const Line &l, const Segment &s) { //
 	return sign(cross(l[1] - l[0], s[0] - l[0]) * cross(l[1] - l[0], s[1] - l[0])) <=0;
 }
 
-bool intersect(const Line &a, const Line &b) { 
+bool intersect(const Line &a, const Line &b) {
 	return sign(cross(a[1]-a[0], b[1]-b[0])) != 0
 		|| sign(cross(a[1]-a[0], b[1]-a[0])) == 0;
 }
@@ -173,8 +173,8 @@ Real dist(const Line &a, const Line &b) {
 	return dist(a,b[0]);
 }
 Real dist(const Segment &s, const Point &p) {
-	if (sign(dot(s[1] - s[0], p - s[0])) == -1) { return dist(s[0],p); } 
-	if (sign(dot(s[0] - s[1], p - s[1])) == -1) { return dist(s[1],p); } 
+	if (sign(dot(s[1] - s[0], p - s[0])) == -1) { return dist(s[0],p); }
+	if (sign(dot(s[0] - s[1], p - s[1])) == -1) { return dist(s[1],p); }
 	return dist(Line(s[0],s[1]), p);
 }
 
@@ -211,7 +211,7 @@ Point crosspoint(const Line &a, const Line &b) {
 //交点
 Point crosspoint(const Segment &a, const Segment &b) {
 	assert(intersect(a,b));
-	
+
 	const Real crs = cross(a[1] - a[0], b[1] - b[0]);
 	if (sign(crs) == 0) {
 		if(intersect(a, b[0])) { return b[0]; }
@@ -254,7 +254,7 @@ vector<Point> crosspoint(const Circle &c, const Segment &s) {
 vector<Point> crosspoint(const Circle &a, const Circle &b) {
 	vector<Point> res;
 	const Real d = dist(a.c,b.c);
-	
+
 	if (sign(d - (a.r + b.r)) == 1) {
 		//nothing
 	}
@@ -268,7 +268,7 @@ vector<Point> crosspoint(const Circle &a, const Circle &b) {
 		res.emplace_back(a.c + rotate(Point(a.r,0),phi+theta));
 		res.emplace_back(a.c + rotate(Point(a.r,0),phi-theta));
 	}
-	
+
 	return res;
 }
 
@@ -291,30 +291,65 @@ int contain(const Polygon &P, const Point &p) {
 			res = !res;
 		}
 	}
-	
+
 	return res ? 2 : 0; //含まれるとき2, 含まれないとき0
 }
 
 /*
  * 点と円の接している点を求める.
- * 相似をつかって比率を求めて計算.
+ * やり方：相似をつかって比率を求めて計算.
  */
-vector<Point> tangent(const Point &p, const Circle &c)
+vector<Point> tangent(const Circle &c, const Point &p)
 {
-	if (sign(dist(c.c, p) - c.r) == 0) {  } //on circle
-	Point v = p - c.c;
-	Real x = norm(v); //|vベクトル|の2乗
-	Real d = sqrt(x - c.r*c.r);
-	Point q1 = (v * c.r * c.r)/x; //v/x * ((c.r * c.r)/x もしx=|vベクトル|なら
-	Point q2 = rotate90(v * (c.r * d / x)); //
-	return (c.c + q1 + q2);
+	const Point v = p - c.c;
+	const Real x = norm(v); //|vベクトル|の2乗
+	const Real d = sqrt(x - c.r*c.r);
+	if (sign(d) == -1) return {};
+	if (sign(d) == 0) return {p};
+	Point q1 = (v * c.r * c.r)/x; //単位ベクトル
+	Point q2 = rotate90(v * (c.r * d / x));
+	return {c.c + q1 - q2, c.c + q1 + q2};
 }
 
 vector<Line> tangent(const Circle &a, const Circle &b) {
-	Point v = a.c - b.c;
-	Point p = a.c + (v * a.r / (a.r + b.r));
-	Line(tangent(p, a), tangent(p,);
-	// = tangent(p, b);
+	vector<Line> res;
+	const Point v = b.c - a.c;
+	const Real d = abs(v);
+	if(sign(d) <= 0) return res;
+
+	const auto make_tangent = [&](const Point &p) {
+		const vector<Point> ps = tangent(a, p), qs = tangent(b, p);
+		for(int i = 0; i < min(ps.size(), qs.size()); ++i) {
+			res.emplace_back(ps[i], qs[i]);
+		}
+	};
+
+	const Real dif_r = b.r - a.r;
+	const Real sum_r = a.r + b.r;
+
+	// 外接線が2種類存在
+	if(sign(d - abs(dif_r)) == 1) {
+		if(sign(dif_r) == 0) {
+			const Point v2 = rotate90(v * (a.r / d));
+			res.emplace_back(a.c + v2, b.c + v2);
+			res.emplace_back(a.c - v2, b.c - v2);
+		}
+		else {
+			make_tangent(a.c + v * (-a.r / dif_r));
+		}
+	}
+
+	// 内接線が2種類存在
+	if(sign(d - sum_r) == 1) {
+		make_tangent(a.c + v * (a.r / sum_r));
+	}
+
+	// 接点が2円の円周上にあるような接線が存在
+	if(sign(d - abs(dif_r)) == 0 || sign(d - sum_r) == 0) {
+		const Point p = a.c + v * (a.r / d);
+		res.emplace_back(p, p + rotate90(v));
+	}
+	return res;
 }
 
 
@@ -329,7 +364,7 @@ Real area(const Polygon &P) {
 
 /*
 vector<Point> my_cp(const Circle &a, const Circle &b) {
-	
+
 }
 */
 
@@ -338,16 +373,10 @@ vector<Point> my_cp(const Circle &a, const Circle &b) {
  * Test Code
  */
 int main() {
-	//CCW=1, CW = -1, BACK= 2, FRONT=-2, ON=0
-	int g,q;
-	int x,y;
-
 	cout.setf(ios::fixed);
 	cout.precision(10); //小数点10桁表示
 
-	Circle c(Point(5,5), 2);
-	Point p = Point(1,1);
-	cout << tangent(p, c) << endl;
+
 
 	return EXIT_SUCCESS;
 }

@@ -17,7 +17,7 @@ struct Node {
 };
 
 void dfs_show(Node &root, int level) {
-	dump(level);
+	//dump(level);
 	if (root.num != -1) { dump(root.num); }
 	if (root.alpha != "@") { dump(root.alpha); }
 	for(auto &child : root.children) {
@@ -46,34 +46,36 @@ string read_digits(const string &line, int &i) {
 	return res_digits;
 }
 
+
+/*
+ * <expr>
+ * 		: <num> '(' <expr> ')' <expr>
+ * 		| <alpha> <expr>
+ * 		| EMPTY
+ *
+ */
 Node expr(const string &line, int &i, Node root)
 {
 	if (isdigit(line[i]))
 	{
-		Node oneNode,twoNode;
-		int num = stoi(read_digits(line,i));
+		Node nodes[3];
+
+		nodes[0].num = stoi(read_digits(line,i));
 		if (line[i] == '(') { i++; }
-		oneNode = expr(line,i,Node());
-		oneNode.num = num;
-		//dump(oneNode.num);
-		root.children.push_back(oneNode);
-
+		nodes[1] = expr(line,i,nodes[1]);
 		if (line[i] == ')') { i++; }
-		twoNode = expr(line,i,Node());
-		dump(twoNode.num);
+		nodes[0].children.push_back(nodes[1]);
 
-		if ( !(twoNode.alpha == "@" && twoNode.num == -1)) {
-			root.children.push_back(twoNode);
-		}
+		nodes[2] = expr(line,i,nodes[2]);
+		root.children.push_back(nodes[0]);
+		root.children.push_back(nodes[2]);
 	}
 	else if (isalpha(line[i])) {
 		Node oneNode;
 		oneNode.alpha = read_alphas(line,i);
 		Node twoNode = expr(line,i,Node());
 		root.children.push_back(oneNode);
-		if ( !(twoNode.alpha == "@" && twoNode.num == -1)) {
-			root.children.push_back(twoNode);
-		}
+		root.children.push_back(twoNode);
 	}
 	else {
 		//EMPTY 何もしない
@@ -92,6 +94,7 @@ int main() {
 		root=expr(line,i,root);
 		int level=0;
 		dfs_show(root,level);
+		cout << "-----" << endl;
 	}
 
 	return EXIT_SUCCESS;
